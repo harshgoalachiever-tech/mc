@@ -1,0 +1,43 @@
+Steps
+Open Flat Fading Experiment
+Enter your name
+Set input values below
+Click RESET
+Observe graphs:
+Channel
+LCR vs Threshold
+ADF vs Threshold
+Enter LCR and ADF values
+Click SUBMIT
+Click REPORT
+Input Values
+Parameter	Value
+No of Multipaths	100
+No Samples	1000
+Sampling Time(sec)	0.001
+Carr. Frequency(MHz)	900
+Velocity(mps)	20
+Threshold(dB)	0
+No. Channels	5
+Avg SNR(dB)	5
+
+These are from your PDF report.
+
+Values to Enter
+MRC
+Field	Value
+LCR_Exp	0
+LCR_Th	0
+ADF_Exp	0
+SC
+Field	Value
+LCR_Exp	6
+LCR_Th	0
+ADF_Exp	0
+Expected Output
+Result	Value
+SC Actual LCR	~63
+SC Theoretical LCR	~76.66
+SC ADF	~0.0096
+SC Theoretical ADF	~0.0040
+MRC LCR	~0.0073
