@@ -1,0 +1,27 @@
+enable
+configure terminal
+hostname DHCP_ROUTER
+
+! Configure the interface for the Left Network (Switch0)
+interface FastEthernet0/0
+ip address 192.168.1.1 255.255.255.0
+no shutdown
+exit
+
+! Configure the interface for the Right Network (Switch1)
+interface FastEthernet0/1
+ip address 192.168.2.1 255.255.255.0
+no shutdown
+exit
+
+! Create the DHCP Pool for the Left Network
+ip dhcp pool LEFT_LAN
+network 192.168.1.0 255.255.255.0
+default-router 192.168.1.1
+exit
+
+! Create the DHCP Pool for the Right Network
+ip dhcp pool RIGHT_LAN
+network 192.168.2.0 255.255.255.0
+default-router 192.168.2.1
+exit
