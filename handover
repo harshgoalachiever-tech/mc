@@ -1,0 +1,56 @@
+Steps
+Open Experiment 8: Handoff
+Enter your name
+Set inputs below
+Click SET
+Click START
+Wait for simulation
+Observe outputs
+Write observation
+Click SUBMIT
+Click REPORT
+Input Values
+Parameter	Value
+Reuse	3
+Cell Radius	50
+Sectorized	OFF
+Shadowing	ON
+Sigma(dB)	4
+Pt(dBm)	34
+fc(GHz)	0.8
+hT(m)	10
+hR(m)	1
+NF(dB)	7
+BW(MHz)	5
+SNR(dB)	5
+Alpha	0.1
+Delta1	3
+Delta2	3
+TimeSlot(s)	20
+AvgTime(ms)	12
+Mobile Speed	50
+Output for Speed = 50
+Result	Value
+SNR	5
+Call Drops	0
+Handoffs	~10
+Outage Time	~720 ms
+% Outage	~3.6
+Second Reading
+
+Change only:
+
+Parameter	Value
+Mobile Speed	100
+
+Then again:
+
+Click SET
+Click START
+Output for Speed = 100
+Result	Value
+SNR	5
+Call Drops	~10
+Handoffs	~57
+Outage Time	~756 ms
+% Outage	~3.78
